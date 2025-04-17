@@ -181,38 +181,35 @@ You will get three options in the terminal
 
 ```json
 {
-"standard_settings": {
-    "project_name": "",
-    "trans_conditions": ["task1", "task2"],
-    "trans_option": "mne_continous",
-    "merge_runs": "on",
-    "empty_room_files": ["empty_room_before.fif", "empty_room_after.fif"],
-    "sss_files": ["empty_room_before.fif", "empty_room_after.fif"],
-    "autobad": "on",
-    "badlimit": 7,
-    "bad_channels":[""],
-    "tsss_default": "on",
-    "correlation": 0.98,
-    "movecomp_default": "on",
-    "data_path": "."
-    },
-
-"advanced_settings": {
-    "force": "off",
-    "downsample": "off",
-    "downsample_factor": 4,
-    "apply_linefreq": "off",
-    "linefreq_Hz": 50,
-    "scripts_path": "/home/natmeg/Scripts",
-    "cal": "/neuro/databases/sss/sss_cal.dat",
-    "ctc": "/neuro/databases/ctc/ct_sparse.fif",
-    "dst_path": "neuro/data/local",
-    "trans_folder": "headtrans",
-    "log_folder": "log",
-    "maxfilter_version": "/neuro/bin/util/mfilter",
-    "MaxFilter_commands": "",
+    "standard_settings": {
+        "project_path": "",
+        "trans_conditions": ["task1", "task2"],
+        "trans_option": "continous",
+        "merge_runs": "on",
+        "empty_room_files": ["empty_room_before", "empty_room_after"],
+        "sss_files": [],
+        "autobad": "on",
+        "badlimit": 7,
+        "bad_channels":[""],
+        "tsss_default": "on",
+        "correlation": 0.98,
+        "movecomp_default": "on",
+        "data_path": "/neuro/data/sinuhe",
+        "output_path": "",
+        "subjects_to_skip": []
+        },
+    "advanced_settings": {
+        "force": "off",
+        "downsample": "off",
+        "downsample_factor": 4,
+        "apply_linefreq": "off",
+        "linefreq_Hz": 50,
+        "cal": "/neuro/databases/sss/sss_cal.dat",
+        "ctc": "/neuro/databases/ctc/ct_sparse.fif",
+        "maxfilter_version": "/neuro/bin/util/maxfilter",
+        "MaxFilter_commands": ""
+        }
     }
-}
 ```
 
 Standard_settings:
