@@ -1,6 +1,4 @@
----
-title: Utility scripts for NatMEG
----
+## New repo: [https://github.com/k-CIR/NatMEG-utils](https://github.com/k-CIR/NatMEG-utils)
 
 # Bidsify
 This script converts data from NatMEG (MEG, EEG, OPM) to BIDS format and organizes the data into a BIDS-compliant folder structure. The script is designed to work with data collected at NatMEG and uses the MNE-BIDS library.
